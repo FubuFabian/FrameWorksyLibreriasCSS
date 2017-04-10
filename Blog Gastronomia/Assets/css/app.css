@@ -1,0 +1,101 @@
+/* Colores
+Naranja: #ff6e25;
+Cafe: #b28057;
+Azul: #4F5FD9;
+Amarillo: #ffbe25;
+Rojo: #ff2a25;
+*/
+
+/* Fonts
+font-family: 'Dancing Script', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+body{
+	background: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100vh;
+	background-attachment: fixed;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2em;
+}
+
+#content{
+	width: 90%;
+	margin: auto;
+	background-color:rgba(178,128,87,0.40);
+}
+
+header{
+	border-bottom: solid 1px #4F5FD9;
+}
+
+.title-text{
+	font-family: 'Dancing Script', cursive;
+	color: #ff6e25;
+}
+
+.slogan-text{
+	font-family: 'Handlee', cursive;
+	color: #4F5FD9;
+	font-weight: bold;
+}
+
+#main-body{
+	margin-top: 30px;
+}
+
+.callout{
+	padding: 40px;
+}
+
+aside{
+	 height: auto !important;
+}
+
+aside h5{
+	font-family: 'Handlee', cursive;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #4F5FD9;
+}
+
+#historial li:hover{
+	background-color: rgba(79,95,217,0.20);
+}
+
+#historial a{
+	color: #4F5FD9 !important;
+}
+#historial a:hover{
+	font-weight: bold;
+}
+
+#contenido{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.post h4{
+	font-family: 'Dancing Script', cursive;
+	color: #ff6e25;
+}
+
+.post h5{
+	font-family: 'Handlee', cursive;
+	color: #4F5FD9;
+}
+
+.post img{
+	height: 300px;
+	margin: auto;
+}
+
+.comments img{
+	height: 100px;
+}
+
+.comments textarea{
+	height: 100px;
+}

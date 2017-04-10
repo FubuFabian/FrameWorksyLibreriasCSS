@@ -1,0 +1,79 @@
+/*
+	rojo: #F01515;
+*/
+
+/*
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#jumbotron{
+	background-image: url(../img/jumbotron.jpg);
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#primary-nav{
+	background-color: rgba(240,21,21,0.50);
+}
+
+#logo{
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 20px;
+}
+
+@media (min-width:992px){
+	#jumbotron{
+		min-height: 600px;
+	}
+} 
+
+#logo-img{
+	max-height: 200px;
+}
+
+.img-group{
+	min-height: 600px;
+}
+
+.valign{
+	margin: auto;
+}
+
+.post{
+	padding: 15px;
+	text-align: justify;
+}
+
+.post img{
+	float:left;
+	max-height: 150px;
+	margin-right: 10px;
+}
+
+#perfil-card {
+	padding: 15px;
+}
+
+#perfil-card img{
+	max-height: 200px;
+}
+
+#comments{
+	padding: 15px;
+	background-color:#ef5350; 
+}
+
+#social{
+	position: fixed;
+	border: none;
+}
+
+#social li{
+
+	border: none
+}

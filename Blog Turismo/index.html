@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="Assets/css/materialize.min.css"  media="screen,projection"/>
+	<link href="Assets/css/main.css" type="text/css" rel="stylesheet" media="screen, projection" />
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Josefin+Sans" rel="stylesheet">
+	<title>Blog Turismo</title>
+</head>
+
+<body>
+
+	<div class="row" id="content">
+		
+		<div class="col l12 m12 s12" id="jumbotron">
+		
+			<header class="row">
+				<nav class="nav-wrapper" id="primary-nav">
+					<ul class="right">
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Estuvo en</a></li>
+						<li><a href="#">Cupones de viaje</a></li>
+						<li><a href="#">Recomendaciones</a></li>
+					</ul>
+				</nav>
+				<div class="row" id="logo">
+					<div class="col l4 offset-l4 m6 offset-m3 s12 center-align">
+							<img src="Assets/img/logo2.png" class="responsive-img" id="logo-img">
+							<h1 class="white-text hide-on-med-and-down">Caminante no hay camino</h1>
+					</div>
+				</div>
+			</header>
+		
+		</div>
+		
+		<div class="col l12 s12 m12 center-align" id="gallery">
+			<div class="col l4 m6 s12 img-group valign-wrapper">
+				<div class="valign">
+					<div class="row ">
+						<img src="Assets/img/acampar.jpg" class="responsive-img hoverable">
+					</div>
+					<div class="row">
+						<img src="Assets/img/desert.jpg" class="responsive-img hoverable">
+					</div>
+				</div>
+			</div>
+			<div class="col l4 m4 hide-on-med-and-down img-group valign-wrapper ">
+				<div class="valign">
+					<div class="row">	
+						<img src="Assets/img/papantla.jpg" class="responsive-img hoverable">
+					</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12 img-group valign-wrapper">
+				<div class="valign">
+					<div class="row">
+						<img src="Assets/img/piramide.jpg" class="responsive-img hoverable">
+					</div>
+					<div class="row">
+						<img src="Assets/img/tele.jpg" class="responsive-img hoverable">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col l12 m12 s12"><hr></div>
+		
+		<div class="col l9 m12 s12" id="posts">
+			
+			<div class="row">
+				<div class="card post ">
+					<img src="Assets/img/desert.jpg" class="responsive-img">
+					<span class="card-title">El desierto</span><br>
+					<div class="chip">Joshua Tree</div> <div class="chip">California</div>
+					<p>
+						Peñascos y muros de contención, montañas escarpadas, vestigios de minas de oro, llanuras desérticas con árboles únicos, este es un lugar realmente extraño. El Parque Nacional Joshua Tree, apodado por los locales “J-Tree”, se encuentra en una intersección ecológica, donde el alto Desierto de Mojave se cruza con el bajo Desierto de Colorado. El resultado es la sorprendente flora del desierto, como esos árboles únicos (un tipo de yuca). La belleza de Joshua Tree brilla todo el día, con puestas del sol vibrantes que se funden en noches con un sinfín de estrellas.<br>
+					
+						<br>El J-Tree es un objetivo para muchos escaladores de roca y un gran lugar para practicar este deporte o, al menos, ver a otros trepar los peñascos típicos de parque. Hace más de 100 millones de años, la actividad volcánica de la Falla de San Andrés expulsó lava por la corteza de la tierra. La lava se enfrió y se endureció debajo de la superficie de la tierra, y, con los años, las inundaciones erosionaron las capas de tierra y expusieron torres, peñascos y agujas de granito, y, así, crearon un paisaje sobrenatural que resulta ser un parque de diversiones para los escaladores. Actualmente, más de 8,000 rutas de escalada establecidas en el parque presentan distintos desafíos, que varían desde bloques y peñascos fáciles para principiantes hasta grietas verticales, especialmente cerca de Hidden Valley y los campamentos Ryan, y en la vasta Wonderland of Rocks. Si necesita un guía, consulte en una tienda local de equipo de escalada, como Nomad Ventures o Joshua Tree Outfitters, en la ciudad de Joshua Tree, en el lado norte del parque.  
+					</p>
+				</div>
+			
+			</div>
+			
+			<div class="row">
+				<div class="card white-text" id="comments">
+					<h2 class="card-title">Deja tu comentario</h2>
+					<form>
+						<div class="row">
+							<div class="input-field col l6 m6 s12">
+								<i class="material-icons prefix">face</i>
+								<input type="text" class="validate" id="nombre">
+								<label for="nombre">Nombre</label>
+							</div>
+							<div class="input-field col l6 m6 s12">
+								<i class="material-icons prefix">email</i>
+								<input type="email" class="validate" id="mail" placeholder="@mail">
+								<label for="email">e-mail</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col l12 m12 s12">
+								<textarea class="materialize-textarea" id="comment" placeholder="Comentario" validate></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col offset-l9 l3 offset-m9 m3 offset-s5 s3">
+								<button class="btn">Comentar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="col l3 m12 s12" id="perfil">
+			<div class="card center-align" id="perfil-card">
+				<img src="Assets/img/yo.jpg" class="responsive-img circle">
+				<h2 class="card-title">Perfil del autor</h2>
+				<hr>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, dolores facere libero inventore molestias quidem voluptatum tempora, fugiat officia, nihil vel aperiam quis cum nesciunt laudantium rem quaerat culpa, adipisci!<br>
+					
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum aspernatur libero officiis cumque rerum odit ut illum laudantium rem unde sint sunt quia, repellendus similique labore accusantium eveniet voluptates mollitia!
+				</p>
+			</div>
+		</div>
+		
+		<ul class="collection white-text" style="top:40vh; left:0vw;" id="social">
+			<a href="#"><li class="collection-item indigo darken-3"><img src="Assets/img/face.png"></li></a>
+			<a href="#"><li class="collection-item #42a5f5 blue lighten-1"><img src="Assets/img/twit.png"></li></a>
+			<a href="#"><li class="collection-item purple"><img src="Assets/img/inst.png"></li></a>
+			<a href="#"><li class="collection-item red darken-1"><img src="Assets/img/you.png"></li></a>
+		</ul>
+		
+		
+	</div>
+
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="Assets/js/materialize.min.js"></script>
+</body>
+</html>

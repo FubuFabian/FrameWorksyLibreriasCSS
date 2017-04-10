@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Colores
+
+Verde #2dbc9b
+Amarillo #ffd24d
+Rosa #f169a7
+
+*/
+
+body{
+	color: #222726 !important;
+	font-family: 'Ubuntu', sans-serif;
+	box-sizing: border-box;
+}
+
+a{
+    color: white !important;
+    text-decoration:none;
+}
+
+a:hover{
+    color: white !important;
+    text-decoration:none;
+}
+
+.container-fluid{
+	max-width: 1150px;
+}
+
+header{
+	height: 60px;;
+	background-color: black;
+}
+
+#menu-social{
+	text-align: center !important;
+}
+
+#logo-img{
+
+}
+
+.img-social{
+	margin: 10px 10px 0 0;
+	height: 35px;
+}
+
+#primary-nav{
+	margin-top: 60px;
+}
+
+.btn-nav{
+	text-align: center;
+	min-height: 40px;
+	padding: 10px;
+	color: white;
+}
+
+.btn-nav:hover{
+	opacity: 0.6;
+}
+
+.art{
+	margin-top:10px;
+	padding: 20px;
+	box-shadow: 2px 2px 10px #999999;
+	border-radius: 10px;
+}
+
+.art-comments{
+	margin-top: 10px !important;
+	text-align: center;
+}
+
+.img-comment-art img{
+	max-height: 80px;
+}
+
+#search-opt{
+	padding:10px 10px 10px 25px;
+
+}
+
+.input-group{
+	border: solid 1px black;
+	border-radius: 10px;
+	padding: 4px;
+}
+
+.input-group button{
+	background-color: white;
+	border: none;
+	box-shadow: none;
+}
+
+.input-group button:active{
+	border: none;
+    box-shadow: none;
+}
+
+.input-group button:visited{
+	border: none;
+    box-shadow: none;
+}
+
+.input-group input{
+	background-color: white;
+	border: none;
+	box-shadow: none;
+}
+
+.input-group input:focus{
+	border: 0;
+    box-shadow: none;
+}
+
+.list-group{
+	border-radius: 0px !important;
+}
+
+.list-group-item{
+	background: none;
+	border: none;
+	border-radius: 0px !important;
+	border-bottom: solid 1px  #191F1E !important;
+	color: #191F1E !important;
+	margin-top: 5px;
+}
+
+.list-group-item:hover{
+	background: none !important;
+	color: black !important;
+	border-bottom: solid 2px  black !important;
+	font-weight: bold;
+}
